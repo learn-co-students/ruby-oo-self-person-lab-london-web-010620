@@ -17,7 +17,6 @@ class Person
 
     def hygiene
         @hygiene.clamp(0, 10)
-
     end
 
     def happy?
